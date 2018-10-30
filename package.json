@@ -1,0 +1,24 @@
+{
+  "name": "minion-bot",
+  "version": "1.0.0",
+  "description": "minion-bot",
+  "main": "index.js",
+  "scripts": {
+    "test": "eslint . && eslint test/. --env mocha && mocha",
+    "start": "node index.js",
+    "fix": "eslint . --fix && eslint test/. --env mocha --fix"
+  },
+  "author": "ethanlaj#8805",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^11.4.2"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.2.6",
+    "eslint": "^4.19.1",
+    "eslint-plugin-json": "^1.2.1",
+    "eslint-plugin-promise": "^3.8.0",
+    "mocha": "^5.2.0",
+    "ndb": "^1.0.23"
+  }
+}
