@@ -1,7 +1,7 @@
 {
-  "name": "minion-bot",
+  "name": "testbot",
   "version": "1.0.0",
-  "description": "minion-bot",
+  "description": "testbot",
   "main": "index.js",
   "scripts": {
     "test": "eslint . && eslint test/. --env mocha && mocha",
